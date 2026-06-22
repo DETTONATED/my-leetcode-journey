@@ -8,7 +8,7 @@ The primary objective of this project is to maintain consistency in coding. I so
 ## Repository Structure
 The project is organized systematically to ensure easy navigation:
 * **Problem-Specific Folders:** Every challenge is stored inside its own folder, named according to the LeetCode problem number and title.
-* **Source Code:** Each folder contains a standard `solution.py` file with the final accepted Python logic.
+* **Source Code:** Each folder contains a standard file with the final accepted Python logic.
 
 ## How to Navigate
 You can browse through the directory structure above to find specific solutions. Each folder contains the complete code file for that particular problem.
