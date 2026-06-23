@@ -1,0 +1,17 @@
+class Solution(object):
+    def firstMissingPositive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        # We used set data structure for fast hashing O(1) lookups
+        num_set = set(nums) 
+        
+        # Start checking from the smallest positive integer
+        current = 1 
+        
+        # Running a loop until the current element is not found in the set
+        while current in num_set:
+            current += 1
+            
+        return current
